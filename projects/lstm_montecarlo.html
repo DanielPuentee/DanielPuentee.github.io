@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Daniel Puente</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" href="../conexion.png">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+					<h1>I am <strong>Daniel Puente Viejo</strong>.
+					</h1>
+					<p>
+					<!-- <br /> -->
+					Artificial Intelligence Specialist
+					</p>
+					
+					
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>LSTM for Montecarlo Simulations</h2>
+						</header>
+						<p>
+							This challenge consist in the reduction of computational cost in the valuation of financial products that do not have a closed formula by implementing a neural network, which will be able to learn non-linear and temporal relationships in an automatic and generalised way.
+							</br>
+							The high computational cost stems from the Monte Carlo simulations used to predict market movements. These simulations are not fully efficient and take a long time to complete. 
+							In addition, given certain market regulations, such as the FRTB regulation, it is necessary to simulate portfolios in different scenarios, called stress scenarios, whose price approximations are necessary.
+							</br>
+							The financial product to be analysed for this challenge is a geometric mean Asian Option composed of three underlyings, whose reward is determined by the geometric mean price of the underlying in a predefined time.		
+						</p>
+						<style>
+							.rounded-image {
+							  border-radius: 0.5em;
+							  overflow: hidden;							  
+							}
+						  </style>
+						  <div class="rounded-image">
+							<img src="./lstm_gru.png" alt="nfl" width="60%" height="60%">
+						  </div>
+						<p>
+							Recurrent neural networks, especially LSTM and GRU, have been used to carry out this project. The optimisation of these has been carried out using Hyperas.													
+						</p>
+						<style>
+							.rounded-image {
+							  border-radius: 0.5em;
+							  overflow: hidden;							  
+							}
+						  </style>
+						  <div class="rounded-image">
+							<img src="./hyperas.png" alt="nfl" width="60%" height="60%">
+						  </div>
+						  <p>
+							The main difference between Hyperas and other optimisers such as KerasTuner is that the latter is based on a selection of optimisers. It has a random optimiser (RandomSearch), Bayesian optimisation or even its own optimiser called Hyperband. The latter seeks to accelerate random search and is currently competing with Bayesian optimisation to be the best optimiser.
+						  </br>
+							On the other hand, Hyperas is a fusion between Hyperopt and Keras. This makes it a fully guided search using a wide variety of optimisers. In addition, it offers more optimisation optimisations than KerasTuner. Therefore, KerasTuner has been used the most, but Keras Tuner has also been used to compare the results between the two. It is anticipated that it is Hyperas that has offered the best results.
+						
+						</p>
+
+
+
+
+						<a href="../index.html"><u>Front page</u></a>
+					</section>
+
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div id="banner">
+						<div class="inline-block">
+							<a href="https://twitter.com/DanielPViejo"><img src="../images/twitter.png" width="10%" height="10%" style="margin-right: 10px;"></a>
+							<a href="https://www.linkedin.com/in/danielpuenteviejo/"><img src="../images/linkedin.png" width="10%" height="10%" style="margin-right: 10px;"></a>
+							<a href="https://github.com/DanielPuentee"><img src="../images/github.png" width="10%" height="10%" style="margin-right: 4px;"></a>
+							<a href="https://www.kaggle.com/danielpuente"><img src="../images/kaggle-icon.svg" width="10%" height="10%"></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Daniel Puente</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" href="../conexion.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+					<h1>I am <strong>Daniel Puente Viejo</strong>.
+					</h1>
+					<p>
+					<!-- <br /> -->
+					Artificial Intelligence Specialist
+					</p>
+					
+					
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>NFL contact prediction</h2>
+						</header>
+						<p>
+							The goal of this project is to detect external contact experienced by players during an NFL football game by applying Computer Vision techniques. 
+							Video and player tracking data have been used to identify moments with contacts to help improve player safety.							
+						</p>
+						<style>
+							.rounded-image {
+							  border-radius: 0.5em;
+							  overflow: hidden;							  
+							}
+						  </style>
+						  <div class="rounded-image">
+							<img src="./nfl.gif" alt="nfl" width="50%" height="50%">
+						  </div>
+						  <p>
+							The meaning of each element is as follows:<br/>  
+								⬛: No contact<br/>
+								🟥: Player - Ground contact<br/>
+								🟩: Player - Player contact<br/><br/>
+							To achieve these results <strong>convolutional neural networks</strong> have been used applying the <strong>Pytorch</strong>  framework. Box selection has been carried out using the Yolo v8 algorithm.							
+						</p>
+						<p>
+						YOLO (You Only Look Once) is an object detection algorithm that works by dividing an image into a grid and then predicting bounding boxes and class probabilities for each grid cell. Here's a brief overview of how it works:<br/>
+						<ul>
+
+							<li><u>Input image:</u> The YOLO algorithm takes an input image and resizes it to a fixed size.</li>
+							<li><u>Divide image into grid:</u> The algorithm divides the resized image into a grid of cells, each of which is responsible for detecting objects within its boundaries.</li>
+							<li><u>Predictions for each cell:</u> For each cell in the grid, YOLO predicts a fixed number of bounding boxes, each represented by its center coordinates, width, height, and a confidence score representing the likelihood of an object being present in that box. Additionally, YOLO predicts class probabilities for each bounding box, indicating the likelihood that the object in the box belongs to a particular class.</li>
+							<li><u>Non-max suppression:</u> YOLO uses a technique called non-max suppression to eliminate redundant bounding boxes that overlap with each other.</li>
+							<li><u>Output</u>: The final output of the algorithm is a list of bounding boxes, each with its class probability, for the objects detected in the image.</li>
+						</ul>
+						One of the key advantages of YOLO over other object detection algorithms is its speed, as it can process images in real-time with high accuracy, making it useful in applications such as autonomous driving, surveillance, and robotics.
+						</p>
+						<a href="../index.html"><u>Front page</u></a>
+					</section>
+
+				<!-- Two -->
+					<!-- <section id="two">
+						<h2>Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/nfl.PNG" class="image fit thumb"><img src="../images/thumbs/nfl.PNG" alt="" /></a>
+								<h3>Computer Vision · NFL contact detection</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/02.jpg" class="image fit thumb"><img src="../images/thumbs/02.jpg" alt="" /></a>
+								<h3>Ultricies lacinia interdum</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/03.jpg" class="image fit thumb"><img src="../images/thumbs/03.jpg" alt="" /></a>
+								<h3>Tortor metus commodo</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/04.jpg" class="image fit thumb"><img src="../images/thumbs/04.jpg" alt="" /></a>
+								<h3>Quam neque phasellus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/05.jpg" class="image fit thumb"><img src="../images/thumbs/05.jpg" alt="" /></a>
+								<h3>Nunc enim commodo aliquet</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/06.jpg" class="image fit thumb"><img src="../images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/06.jpg" class="image fit thumb"><img src="../images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul>
+					</section> -->
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div id="banner">
+						<div class="inline-block">
+							<a href="https://twitter.com/DanielPViejo"><img src="../images/twitter.png" width="10%" height="10%" style="margin-right: 10px;"></a>
+							<a href="https://www.linkedin.com/in/danielpuenteviejo/"><img src="../images/linkedin.png" width="10%" height="10%" style="margin-right: 10px;"></a>
+							<a href="https://github.com/DanielPuentee"><img src="../images/github.png" width="10%" height="10%" style="margin-right: 4px;"></a>
+							<a href="https://www.kaggle.com/danielpuente"><img src="../images/kaggle-icon.svg" width="10%" height="10%"></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
