@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Daniel Puente</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" href="../conexion.png">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+					<h1>I am <strong>Daniel Puente Viejo</strong>.
+					</h1>
+					<p>
+					<!-- <br /> -->
+					Artificial Intelligence Specialist
+					</p>
+					
+					
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>LSTM + GANs Lithium-ion batteries RUL prediction</h2>
+						</header>
+						<p>
+							Lithium-ion batteries are one of the most widely used solutions in many
+							sectors, such as electric vehicles, thanks to their higher energy density and
+							low self-discharge. With the use and passage of time, batteries degrade and
+							eventually die, endangering the integrity of the objects they power. An
+							accurate prediction of the remaining useful life (RUL) of lithium-ion batteries
+							is therefore essential to maximize the efficiency of their use and ensure safety.</br>
+							For this purpose, a deep learning-based approach trained on the widely used
+							Oxford battery degradation dataset with the help of generative adversarial
+							networks (GANS) has been implemented. The designed network consists of a
+							long-short-term memory (LSTM) architecture with the implementation of a
+							stratification strategy and a custom loss function. The illustrative results show
+							that the suggested approach can produce adaptable and reliable predictions of
+							the RUL.					
+						</p>
+						<p>
+							The main strategy is not to over-predict, as predicting a higher RUL than the actual RUL can be detrimental. 
+							For this purpose, the following cost function has been devised, which, including all of the above, obtains the following results.
+						</p>
+						<style>
+							.rounded-image {
+							  border-radius: 0.5em;
+							  overflow: hidden;							  
+							}
+						  </style>
+						  <div class="rounded-image">
+							<img src="./SixthCellPrediction.png" alt="nfl" width="60%" height="60%">
+						  </div>
+						<p>
+							The main techniques used are described below.
+							<ul>
+
+							<li><u>GANs:</u> GANs are a type of deep learning model that consists of two neural networks: a generator and a discriminator. The generator takes in random noise as input and generates new data, such as images or text. The discriminator takes in both the generated data and real data and tries to distinguish between them. The two networks are trained together in an adversarial way, with the generator trying to fool the discriminator and the discriminator trying to correctly identify the generated data. This process continues until the generator produces data that is indistinguishable from real data.</li>
+							<li><u>LSTMs:</u> LSTMs are a type of recurrent neural network (RNN) that are used for sequence prediction tasks. They are designed to overcome the limitations of traditional RNNs, which can have difficulty remembering information from earlier in a sequence. LSTMs use a system of gates that control the flow of information through the network, allowing them to selectively remember or forget information. This makes them well-suited for tasks such as language modeling, speech recognition, and machine translation.</li>
+						</ul>
+						In summary, GANs are used for generating new data that is similar to existing data, while LSTMs are used for predicting sequences of data based on previous observations.						</p>
+						
+						<a href="../index.html"><u>Front page</u></a>
+					</section>
+
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div id="banner">
+						<div class="inline-block">
+							<a href="https://twitter.com/DanielPViejo"><img src="../images/twitter.png" width="10%" height="10%" style="margin-right: 10px;"></a>
+							<a href="https://www.linkedin.com/in/danielpuenteviejo/"><img src="../images/linkedin.png" width="10%" height="10%" style="margin-right: 10px;"></a>
+							<a href="https://github.com/DanielPuentee"><img src="../images/github.png" width="10%" height="10%" style="margin-right: 4px;"></a>
+							<a href="https://www.kaggle.com/danielpuente"><img src="../images/kaggle-icon.svg" width="10%" height="10%"></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
