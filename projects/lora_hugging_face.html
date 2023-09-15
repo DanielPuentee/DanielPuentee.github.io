@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Daniel Puente</title>
@@ -15,6 +10,7 @@
 	</head>
 	<body class="is-preload">
 
+		<!-- Header -->
 			<header id="header">
 				<div class="inner">
 					<a href="../index.html" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
@@ -23,16 +19,18 @@
 					<p style="color:whitesmoke;">Artificial Intelligence Specialist  </p>
 				</div>
 			</header>
+
 		<!-- Main -->
 			<div id="main">
 
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Simulation of a graph-based fraud detection algorithm deployed in a production Azure ML system</h2>
+							<h2>Fine-Tuning Image-to-Text algorithms with LORA</h2>
 						</header>
 						<p>
-							Bank fraud is the order of the day and more complex mechanisms for the prevention of this type of transactions are in demand. In this work we seek to apply graph-based algorithms for the detection of these, offering tools for the implementation of the algorithm in production and its maintenance over time. The main tools applied are Azure cloud services and neural network algorithms based on heterogeneous graphs. 
+							In the field of large language models, the challenge of fine-tuning has long perplexed researchers. Microsoft, however, has unveiled an innovative solution called Low-Rank Adaptation (LoRA). With the emergence of behemoth models like GPT-3 boasting billions of parameters, the cost of fine-tuning them for specific tasks or domains has become exorbitant.
+							LoRA offers a groundbreaking approach by freezing the weights of pre-trained models and introducing trainable layers known as rank-decomposition matrices in each transformer block. This ingenious technique significantly reduces the number of trainable parameters and minimizes GPU memory requirements, as gradients no longer need to be computed for the majority of model weights.
 						<style>
 							.rounded-image {
 								border-radius: 0.5em;
@@ -40,11 +38,12 @@
 							}
 							</style>
 							<div class="rounded-image">
-							<img src="./azure_tfg_metrics.png" alt="nfl" width="80%" height="40%">
+							<img src="./hugging_model.PNG" alt="nfl" width="80%" height="50%">
 							</div>						
 						</br>	
-							An excellent performance of this type of algorithms has been achieved, with results close to 80% in the target metric, and its implementation in Azure ML. To obtain the expected performance, a customised cost function is used to provide a correct balance of the true positive rate.
-						<p>	
+							In this project, a model has been generated in which this technique has been applied to retrain an Image-to-Text model based on the Stable Diffusion database.					
+							The number of downloads of this model is growing at a frenetic pace. It also has an interactive drop-down where you can see how the model works.
+						<p></p>
 						<style>
 							.rounded-image {
 								border-radius: 0.5em;
@@ -52,22 +51,14 @@
 							}
 							</style>
 							<div class="rounded-image">
-							<img src="./custom_loss_tfg.PNG" alt="nfl" width="80%" height="40%">
+							<img src="./hugging_space.PNG" alt="nfl" width="80%" height="40%">
 							</div>	
 						</br>
-							Thanks to the intensive processing, the generation of the graph by applying the Pytorch Geometric library and the application of the cost function, results that exceed the usual procedures are achieved. In addition, a dashboard has been generated using Power BI which reflects the key characteristics that prevent the degradation of the model. Together with this, an API is developed to see which characteristics the algorithm takes into account for a given prediction.
+							On the other hand, a space has also been created where you can interact freely with the model.
+							If you want more information on how to implement and retrain your Image-to-Text model applying LORA, you can take a look at the article I have published in Medium, where everything necessary for the implementation is written step by step.
+							
 						</br>
-						<style>
-							.rounded-image {
-								border-radius: 0.5em;
-								overflow: hidden;							  
-							}
-							</style>
-							<div class="rounded-image">
-							<img src="./API.gif" alt="nfl" width="70%" height="40%">
-							</div>	
-						</br>
-						The results of the project confirm the applicability of graphs as a predictive system for fraud detection, as well as the use of auxiliary tools for the correct use and maintenance of the algorithm. In this way, a reliable and non-discriminatory service is offered.
+						<a href="https://medium.com/@daniel.puenteviejo/fine-tuning-image-to-text-algorithms-with-lora-deb22aa7da27"><u>Medium article</u></a>
 						</p>
 
 
