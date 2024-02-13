@@ -2430,7 +2430,11 @@ input, select, textarea {
 			}
 
 /* Button */
-
+	.top-right-button {
+		top: 20px; /* 10px from the top */
+		right: 70px; /* 10px from the right */
+		z-index: 1000; /* Ensures it stays on top of other elements */
+	}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2446,7 +2450,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2545,9 +2549,9 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #e7e7e7 !important;
-			border-color: #e7e7e7 !important;
-			color: #b2b2b2 !important;
+			background-color: #ffffff !important;
+			border-color: #ffffff !important;
+			color: #ffffff !important;
 			cursor: default;
 		}
 
@@ -3219,3 +3223,18 @@ input, select, textarea {
 			}
 
 	}
+
+
+.top-right-button {
+	position: absolute; /* Fixed position */
+	top: 20px; /* 10px from the top */
+	right: 70px; /* 10px from the right */
+	z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+.top-right-button .button {
+	text-decoration: none; /* Remove underline from link */
+	background-color: rgb(78, 95, 125); /* Button background color */
+	
+	
+}
