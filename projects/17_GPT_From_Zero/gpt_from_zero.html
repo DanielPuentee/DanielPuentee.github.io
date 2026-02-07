@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Daniel Puente</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="icon" href="../../conexion.png">
+    </head>
+    <body class="is-preload">
+
+        <header id="header">
+                <div class="inner">
+                    <a href="../../index.html" class="image avatar"><img src="../../images/avatar.jpg" alt="" /></a>
+                    <h1>I am <strong>Daniel Puente Viejo</strong>.
+                    </h1>
+                    <p style="color:whitesmoke;">Generative Artificial Intelligence Specialist</p>
+                </div>
+            </header>
+
+        <div id="main">
+                    <section id="one">
+                        <header class="major">
+                            <h2>GPT-Style Model from Scratch</h2>
+                        </header>
+                        <p>
+                            This project is a complete implementation of a <strong>GPT-style decoder-only transformer built from scratch in PyTorch</strong>. 
+                            Rather than using high-level libraries, every component is hand-crafted to provide a deep understanding of how modern language models work.
+                        </p>
+
+                        <style>
+                            .rounded-image {
+                                border-radius: 0.5em;
+                                overflow: hidden;                             
+                            }
+                        </style>
+                        
+                        <div class="rounded-image">
+                            <img src="./cover_page.png" alt="gpt_from_zero" width="100%" height="100%">
+                        </div>                      
+                        <br>   
+
+                        <p>
+                            For the complete source code, educational notebooks, and training scripts, check out the project on GitHub →
+                            <a href="https://github.com/DanielPuentee/gpt-from-zero" target="_blank"><u>GitHub repository</u></a>
+                        </p>
+        
+                        <p>
+                            The project includes a complete training pipeline: you can train the model with just a <code>data.txt</code> file containing raw text, 
+                            and optionally fine-tune it using <strong>RLHF (Reinforcement Learning from Human Feedback)</strong> with prompt-response pairs and ratings.
+                        </p>
+
+                        <p>
+                            Key components of the transformer architecture (built from scratch):
+                        </p>
+
+                        <ul>
+                            <li><strong>BPE Tokenizer:</strong> Byte-Pair Encoding implementation for text-to-token conversion.</li>
+                            <li><strong>Token Embeddings:</strong> Learnable dense vector representations of tokens.</li>
+                            <li><strong>Positional Encoding:</strong> Sinusoidal position information added to embeddings.</li>
+                            <li><strong>Multi-Head Self-Attention:</strong> Causal attention mechanism for autoregressive generation.</li>
+                            <li><strong>Feed-Forward Networks:</strong> Position-wise MLP layers.</li>
+                            <li><strong>Layer Normalization:</strong> Training stabilization technique.</li>
+                            <li><strong>Transformer Blocks:</strong> Combining attention, FFN, and residual connections.</li>
+                        </ul>
+
+                        <p>
+                            What makes this project unique:
+                        </p>
+
+                        <ul>
+                            <li><strong>Educational Focus:</strong> Each component has a dedicated notebook explaining the theory and implementation.</li>
+                            <li><strong>Bottom-Up Learning:</strong> Independent components are introduced first, then combined progressively.</li>
+                            <li><strong>Complete Pipeline:</strong> From tokenization to pre-training to fine-tuning to inference.</li>
+                            <li><strong>Modular Design:</strong> Clean separation between components makes the code easy to understand and modify.</li>
+                            <li><strong>Self-Supervised Learning:</strong> The model creates its own training data from raw text by predicting the next token.</li>
+                        </ul>
+
+                        <p>
+                            The training process is elegantly simple: given a sequence of words, predict the next one. Through millions of iterations, 
+                            the model learns grammar, facts, context, and even writing style—all without explicit human labels. This is the same 
+                            fundamental approach used by large language models like GPT-3 and GPT-4.
+                        </p>
+
+                        <p>
+                            This project serves as a comprehensive educational resource for anyone wanting to understand transformers from the ground up, 
+                            providing both theoretical knowledge through notebooks and practical implementation through clean, documented code.
+                        </p>
+
+                        <a href="../../index.html"><u>Front page</u></a>
+                    </section>
+
+            </div>
+
+        <footer id="footer">
+                <div class="inner">
+                    <div id="banner">
+                        <div class="inline-block">
+                            <a href="https://www.linkedin.com/in/danielpuenteviejo/" target="_blank"><img src="../../images/linkedin.png" width="18%" height="20%" style="margin-right: 10px;"></a>
+                            <a href="https://github.com/DanielPuentee" target="_blank"><img src="../../images/github.png" width="18%" height="18%" style="margin-right: 10px;"></a>
+                            <a href="https://medium.com/@daniel.puenteviejo" target="_blank"><img src="../../images/medium.png" width="18%" height="5%" style="margin-right: 10px;"></a>
+                            <a href="https://huggingface.co/D0k-tor" target="_blank"><img src="../../images/hugging_face.png" width="18%" height="5%" style="margin-right: 10px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        <script src="../../assets/js/jquery.min.js"></script>
+            <script src="../../assets/js/jquery.poptrox.min.js"></script>
+            <script src="../../assets/js/browser.min.js"></script>
+            <script src="../../assets/js/breakpoints.min.js"></script>
+            <script src="../../assets/js/util.js"></script>
+            <script src="../../assets/js/main.js"></script>
+
+    </body>
+</html>
