@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Daniel Puente</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="icon" href="../../conexion.png">
+    </head>
+    <body class="is-preload">
+
+        <header id="header">
+                <div class="inner">
+                    <a href="../../index.html" class="image avatar"><img src="../../images/avatar.jpg" alt="" /></a>
+                    <h1>I am <strong>Daniel Puente Viejo</strong>.
+                    </h1>
+                    <p style="color:whitesmoke;">Generative Artificial Intelligence Specialist</p>
+                </div>
+            </header>
+
+        <div id="main">
+                    <section id="one">
+                        <header class="major">
+                            <h2>🔍 LangGraph Multi-Agent People Search</h2>
+                        </header>
+                        <p>
+                            This project demonstrates how to <strong>build a multi-agent system using LangGraph</strong> to search and organize information about people from the web. 
+                            The system uses <strong>Azure OpenAI</strong> for intelligent query analysis and response formatting, and <strong>Tavily</strong> for free web searches.
+                        </p>
+
+                        <style>
+                            .rounded-image {
+                                border-radius: 0.5em;
+                                overflow: hidden;                             
+                            }
+                        </style>
+                        
+                        <div class="rounded-image">
+                            <img src="./cover_page.png" alt="contact_searcher" width="100%" height="100%">
+                        </div>                      
+                        <br>   
+
+                        <p>
+                            For the full source code and implementation details, check out the project on GitHub →
+                            <a href="https://github.com/DanielPuentee/langgraph-people-search" target="_blank"><u>GitHub repository</u></a>
+                        </p>
+        
+                        <p>
+                            We leverage LangGraph's multi-agent architecture for a fluid, autonomous search process. You provide a name and surname, 
+                            and the system automatically plans, routes, searches, and formats the information into clean, structured tables.
+                        </p>
+
+                        <p>
+                            The system consists of four specialized agents working together:
+                        </p>
+
+                        <ul>
+                            <li><strong>🎯 Planner Agent:</strong> Analyzes user requests and creates execution plans.</li>
+                            <li><strong>🔍 Searcher Agent:</strong> Searches the web using Tavily API for relevant information.</li>
+                            <li><strong>📝 Formatter Agent:</strong> Organizes raw search data into structured markdown tables.</li>
+                            <li><strong>💬 Non-Contact Agent:</strong> Handles queries not related to finding people.</li>
+                        </ul>
+
+                        <p>
+                            Key features of this implementation:
+                        </p>
+
+                        <ul>
+                            <li>Built with <strong>LangGraph</strong> for sophisticated multi-agent orchestration.</li>
+                            <li>Uses <strong>uv</strong> package manager for fast, reliable dependency management.</li>
+                            <li>Includes both <strong>Streamlit web interface</strong> and <strong>CLI mode</strong> for flexibility.</li>
+                            <li>All configuration externalized in <strong>YAML files</strong> (prompts, settings, agent parameters).</li>
+                            <li>Integrates <strong>Azure OpenAI</strong> for LLM capabilities and <strong>Tavily</strong> for web search.</li>
+                        </ul>
+
+                        <p>
+                            This project serves as a practical blueprint for developers looking to build scalable multi-agent systems with LangGraph, 
+                            showcasing best practices for agent coordination, state management, and system configuration.
+                        </p>
+
+                        <a href="../../index.html"><u>Front page</u></a>
+                    </section>
+
+            </div>
+
+        <footer id="footer">
+                <div class="inner">
+                    <div id="banner">
+                        <div class="inline-block">
+                            <a href="https://www.linkedin.com/in/danielpuenteviejo/" target="_blank"><img src="../../images/linkedin.png" width="18%" height="20%" style="margin-right: 10px;"></a>
+                            <a href="https://github.com/DanielPuentee" target="_blank"><img src="../../images/github.png" width="18%" height="18%" style="margin-right: 10px;"></a>
+                            <a href="https://medium.com/@daniel.puenteviejo" target="_blank"><img src="../../images/medium.png" width="18%" height="5%" style="margin-right: 10px;"></a>
+                            <a href="https://huggingface.co/D0k-tor" target="_blank"><img src="../../images/hugging_face.png" width="18%" height="5%" style="margin-right: 10px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        <script src="../../assets/js/jquery.min.js"></script>
+            <script src="../../assets/js/jquery.poptrox.min.js"></script>
+            <script src="../../assets/js/browser.min.js"></script>
+            <script src="../../assets/js/breakpoints.min.js"></script>
+            <script src="../../assets/js/util.js"></script>
+            <script src="../../assets/js/main.js"></script>
+
+    </body>
+</html>
