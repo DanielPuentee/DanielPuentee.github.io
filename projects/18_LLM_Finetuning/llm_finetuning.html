@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Daniel Puente</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="icon" href="../../conexion.png">
+    </head>
+    <body class="is-preload">
+
+        <header id="header">
+                <div class="inner">
+                    <a href="../../index.html" class="image avatar"><img src="../../images/avatar.jpg" alt="" /></a>
+                    <h1>I am <strong>Daniel Puente Viejo</strong>.
+                    </h1>
+                    <p style="color:whitesmoke;">Generative Artificial Intelligence Specialist</p>
+                </div>
+            </header>
+
+        <div id="main">
+                    <section id="one">
+                        <header class="major">
+                            <h2>Fine-Tune Small LMs at Lightning Speed</h2>
+                        </header>
+                        <p>
+                            This project is a comprehensive guide to <strong>fine-tuning small language models (1B & 8B parameters)</strong> using two distinct approaches: 
+                            fast cloud training with <strong>Unsloth on Google Colab</strong>, and local adaptation on <strong>Mac (MPS)</strong> & <strong>Windows/Linux (CUDA)</strong> using PEFT.
+                        </p>
+
+                        <style>
+                            .rounded-image {
+                                border-radius: 0.5em;
+                                overflow: hidden;                             
+                            }
+                        </style>
+                        
+                        <div class="rounded-image">
+                            <img src="./cover_page.png" alt="llm_finetuning" width="100%" height="100%">
+                        </div>                      
+                        <br>   
+
+                        <p>
+                            For the complete source code, notebooks for all platforms, and training scripts, check out the project on GitHub →
+                            <a href="https://github.com/DanielPuentee/llm-finetuning-guide" target="_blank"><u>GitHub repository</u></a>
+                        </p>
+        
+                        <p>
+                            The project demonstrates how to fine-tune an <strong>8B parameter model in minutes</strong> using <strong>Unsloth</strong>, 
+                            a library that makes training small LMs incredibly fast and memory-efficient. While traditional fine-tuning of 8B models 
+                            often requires expensive GPU clusters, Unsloth democratizes this process by enabling training on free Google Colab resources.
+                        </p>
+
+                        <p>
+                            For a detailed walkthrough and the accompanying article, visit the Medium post →
+                            <a href="https://medium.com/@daniel.puenteviejo/fine-tune-small-lms-at-lightning-speed-a-practical-guide-to-use-unsloth-on-google-colab-c8090b32b7ff" target="_blank"><u>Medium Article</u></a>
+                        </p>
+
+                        <p>
+                            What you get from this project:
+                        </p>
+
+                        <ul>
+                            <li><strong>Three Platform-Specific Workflows:</strong> Google Colab (GPU in the cloud), macOS (Apple Silicon/MPS), and Windows/Linux (CUDA).</li>
+                            <li><strong>Ready-to-Use Dataset:</strong> Basketball dataset plus raw corpus for quick experimentation.</li>
+                            <li><strong>LoRA (Low-Rank Adaptation):</strong> Train less than 1% of parameters while achieving comparable performance to full fine-tuning.</li>
+                            <li><strong>Complete Training Pipeline:</strong> From dataset preparation to training to inference.</li>
+                            <li><strong>Multiple Data Formats:</strong> Support for both raw text files and supervised Q&A pairs.</li>
+                        </ul>
+
+                        <p>
+                            Why Unsloth changes the game:
+                        </p>
+
+                        <ul>
+                            <li><strong>Memory Efficiency:</strong> Reduces memory usage by up to 80% through optimized kernels and gradient checkpointing.</li>
+                            <li><strong>Speed:</strong> Training is 2-5× faster compared to standard Hugging Face training loops.</li>
+                            <li><strong>Larger Batch Sizes:</strong> Supports larger batches on consumer hardware, enabling faster convergence.</li>
+                            <li><strong>Accuracy Maintained:</strong> Achieves comparable results with fewer computational resources.</li>
+                        </ul>
+
+                        <p>
+                            The project includes comprehensive notebooks for each platform, all using the same dataset and achieving consistent results. 
+                            Whether you prefer cloud training with Unsloth or local fine-tuning with PEFT and LoRA, this guide provides everything you need 
+                            to adapt compact open models like TinyLlama-1.1B and Llama-3.1-8B-Instruct to your own domain.
+                        </p>
+
+                        <p>
+                            Training typically completes in under 10 minutes on Google Colab's free T4 GPU—something that traditionally would require 
+                            hours or expensive cloud instances. This makes advanced LLM customization accessible to everyone, not just those with access 
+                            to expensive computational resources.
+                        </p>
+
+                        <a href="../../index.html"><u>Front page</u></a>
+                    </section>
+
+            </div>
+
+        <footer id="footer">
+                <div class="inner">
+                    <div id="banner">
+                        <div class="inline-block">
+                            <a href="https://www.linkedin.com/in/danielpuenteviejo/" target="_blank"><img src="../../images/linkedin.png" width="18%" height="20%" style="margin-right: 10px;"></a>
+                            <a href="https://github.com/DanielPuentee" target="_blank"><img src="../../images/github.png" width="18%" height="18%" style="margin-right: 10px;"></a>
+                            <a href="https://medium.com/@daniel.puenteviejo" target="_blank"><img src="../../images/medium.png" width="18%" height="5%" style="margin-right: 10px;"></a>
+                            <a href="https://huggingface.co/D0k-tor" target="_blank"><img src="../../images/hugging_face.png" width="18%" height="5%" style="margin-right: 10px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        <script src="../../assets/js/jquery.min.js"></script>
+            <script src="../../assets/js/jquery.poptrox.min.js"></script>
+            <script src="../../assets/js/browser.min.js"></script>
+            <script src="../../assets/js/breakpoints.min.js"></script>
+            <script src="../../assets/js/util.js"></script>
+            <script src="../../assets/js/main.js"></script>
+
+    </body>
+</html>
